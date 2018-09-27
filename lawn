@@ -1,0 +1,19 @@
+1.	What code draws the blades of grass?
+function draw() {
+  stroke(random(60, 70), 100, 90);
+ line(x, height-10, x + random(-10, 10), height-10-random(h));
+2.	What code makes the "lawnmower" come by? How often does it come by?
+if (random() > 0.999) {
+    noStroke();
+It comes by when the grass blades reach the height of 10. 
+
+3.	What's the point of the h variable?
+Height is set as a variable because the value assigned to it can be altered and manipulated later in the code as per your requirements. It lays a foundation which the developer can later use to do things more efficiently 
+
+4.	What do the three numerical arguments of colorMode do?
+The color mode arguments decide the Hue, Saturation and Brightness Values. They are all set to 100 which means it will be white. If it were closer to a single digit value, the color would become darker. 
+
+5.	What does the -10 do in the second and fourth arguments of the line function, height-10-random(h)? Why is it there?
+In the second argument, it decides where the grass will start growing. From the height of of the ground. 
+
+In the fourth argument, It decides the height of the grass blade. If it was height-10-random, it would mean that the grass blades will grow for 10 px randomly. If the value is changed, the height changes. 
