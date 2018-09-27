@@ -1,0 +1,13 @@
+If an array has 5 elements in it, what are the valid index values for the array? (Hint: what's always the first index value?)
+y[0], y[1]. y[2], y[3], y[4]
+
+What is the difference between a for loop and a while loop?
+
+For loops are for when you know the amount of times you want something to loop, they have pre-condition for ex, if the input 
+is x then the output should be x+1. While loops allow you to set conditions like reaching a certain value, etc.  
+
+Use Google or your favorite search website to figure out what the three parts of a for loop are called in JavaScript.
+How does code refer to the number of elements (aka "entries") in an array? (Hint: it shows up in the code you modified!)
+
+sponsorship-slot="card" data-sponsorship-slot-id="footer">  <i class="media"></i>   <a class="category" href="
+(didnt really understand this part!) 
